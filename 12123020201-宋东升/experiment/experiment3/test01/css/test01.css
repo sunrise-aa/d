@@ -1,0 +1,240 @@
+
+#allTitle {
+    float: right;
+    margin-right: 150px;
+    line-height: 13px;
+    color: #333333;
+}
+
+/* 水平导航栏 */
+div.click {
+    margin-top: 50px;
+    float: left;
+    cursor: pointer;
+}
+
+div.click:hover {
+    color: #3399cc;
+    background-color: orange;
+}
+/* 下拉菜单 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: orange;
+    min-width: 101px;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 0px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: white;
+    background-color: tomato;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* 搜索框 */
+.dropleft {
+    position: relative;
+    display: inline-block;
+    right:-40px;
+    top:-2px;
+
+}
+
+.dropleft-content {
+    display: none;
+    position: absolute;
+}
+
+.dropleft:hover .dropleft-content {
+    display: block;
+    border: 3px solid #006699;
+    right: 0;
+    top: -5;
+    margin: auto;
+}
+
+.clickSecond {
+    cursor: pointer;
+    margin-bottom: 7px;
+    margin-right: 9px;
+    color: #999999;
+    float: left;
+}
+/* 横线长 */
+.line {
+    margin-bottom: 7px;
+    margin-right: 9px;
+    color: #999999;
+    float: left;
+}
+/* 垂直导航栏 */
+div.clickSecond:hover {
+    color: #3399cc;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 218px;
+    border-bottom: 1px solid white;
+    background-color: #f5f5f5;
+}
+
+li a {
+    display: block;
+    color: #999999;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-left: 6px solid #999999;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+li a.active {
+    background-color: #3399cc;
+    border-left: 6px solid #3399cc;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    border-left: 6px solid #3399cc;
+    color: #3399cc;
+}
+
+.spacing{
+    height: 18px;
+    width: 101px;
+    text-align: center;
+}
+
+.picture{
+    margin-right: 91px;
+    float: left;
+}
+/* 产业动态 */
+.chanye{
+    border-left:  6px solid #3399cc;
+    color: #3399cc;
+    padding: 8px 16px;
+}
+/* 题目 */
+.title{
+    text-align: center;margin-bottom: 10px;
+}
+/* 来源 */
+.resource{
+    color: #999999;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* 文章形式 */
+.main{
+    color: #555555;
+    padding-bottom: 12px;
+    font-size: 14px;
+    margin-top: 20px;
+    height: 213px;
+    width: 1191px;
+}
+
+.last{
+    text-align: center;
+    color: #979797;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+/* 最后的灰色 */
+.back{
+    background-color:#e2e2e1;
+    width:1324px;
+    height: 151px;
+    margin-top: 0px;
+    padding-top: 40px;
+    font-size: 16px;
+}
+
+/* 总排版 */
+.all{ 
+    height: 116px;
+    width: 1324px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.searchPosition{
+    margin-top: 70px;
+    float: left;
+    right: -20px;
+   
+}
+
+.middle{
+    margin-top: 30px;
+    height: 551px;
+}
+/* logo */
+#titleIcon {
+    height: 80px;
+    width: 401px;
+    float: left;
+    margin-left: 180px;
+    margin-bottom: 32px;
+    padding-top: 32px;
+}
+/* 中间图 */
+#pngSecond {
+    height: 19px;
+    width: 1006px;
+    margin-left: 180px;
+    padding-bottom: 7px;
+    color: #999999;
+    border-bottom: 1px solid #999999;
+}
+/* 垂直导航栏大小 */
+#status {
+    height: 489px;
+    width: 218px;
+    float: left;
+    margin-top: 19px;
+    margin-left: 180px;
+    margin-right: 41px;
+    background-color: #f5f5f5;
+}
+/* 搜索框设置 */
+#in{
+    border: none;
+    height: 24px;
+    background-image: url(../img/Search.png);
+    background-repeat: no-repeat;
+    background-size: 19px;
+    background-position:140px;
+   
+}
+#serachbox{
+     right: -20px;
+}
+h6{
+    font-size: 1px;
+    font-family: Candara;
+}
